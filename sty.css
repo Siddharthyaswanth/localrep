@@ -50,6 +50,10 @@ body{
    justify-content: space-between;
    box-shadow: 0 5px 15px rgba(0, 1, 7, 0.6);
    background-color: azure;
+   z-index: 999;
+   position: sticky;
+   top: 0;
+   left: 0;
 }
 #navbar{
    display: flex;
