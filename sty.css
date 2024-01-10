@@ -149,3 +149,69 @@ body{
 #feature .fe-box:nth-child(6) h6{
    background-color: lightgoldenrodyellow;
 }
+
+
+#product1{
+   text-align: center;
+}
+#product1 .fprd{
+   width: 23px;
+   padding: 10px 12px;
+   min-width: 250px;
+   border: 1px solid #cce7d0;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+   margin: 15px 0;
+   transition: 0.2 ease;
+   position: relative;
+}
+#product1 .fprd img{
+   width: 100%;
+   border: 1px solid #cce7d0;
+   border-radius: 20px;
+}
+#product1 .fprd:hover{
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.07);
+
+}
+#product1 .fprd .des{
+   text-align: start;
+}
+#product1 .fprd .des span{
+   font-size: 12px;
+   color: darkgrey;
+}
+#product1 .fprd .des h5{
+   padding-top: 7px;
+   font-size: 14px;
+   color: #1a1a1a;
+}
+#product1 .fprd .des i{
+   font-size: 14px;
+   color: rgb(228, 214, 24);
+}
+#product1 .fprd .des h4{
+   padding-top: 7px;
+   color: #465b52;
+   font-size: 18px;
+   font-weight: 700;
+}
+#product1 .fprd .cart{
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 50px;
+   background-color: #cce7d0;
+   font-weight: 500;
+   color: #465b52;
+   border: 1px solid #cce7d0;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+}
+#product1 .fprd-list{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
