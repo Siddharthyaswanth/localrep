@@ -71,7 +71,7 @@ body{
    padding: 0% 20px;
 }
 #header a img{
-   width: 40px;
+   width: 120px;
 }
 
 
@@ -255,4 +255,127 @@ body{
    color: aliceblue;
    background-color: #465b52;
    box-shadow: 10px 10px 50px rgba(90, 90, 90, 0.658);
+}
+#smbanner .smban{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: center;
+   background-image: url("pics/b17.jpg");
+   height: 40vh;
+   width: 580px;
+   background-position: center;
+   background-size: cover;
+   padding: 30px;
+}
+#smbanner {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#smbanner .smban h4{
+   color: aliceblue;
+   font-weight: 300;
+   font-size: 20px;
+}
+#smbanner .smban h2{
+   color: #fff;
+   font-weight: 800;
+   font-size: 28px;
+}
+#smbanner .smban span{
+   color: #fff;
+   font-size: 14px;
+   font-weight: 500;
+   padding-bottom: 20px;
+}
+#smbanner .smban button{
+   color: #fff;
+   background-color: #465b52;
+   padding: 10px 15px;
+   cursor: pointer;
+}
+#smbanner .smban button:hover{
+   color: #222;
+   background-color: #cce7dc;
+   font-weight: 800;
+   padding: 15px 20px;
+   box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.02);
+  
+}
+#smbanner .smban2{
+   background-image: url(pics/b10.jpg);
+}
+#textban .txtbnr{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: center;
+   background-image: url("pics/b7.jpg");
+   height: 30vh;
+   width: 400px;
+   background-position: center;
+   background-size: cover;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+#textban{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#textban .t2{
+   background-image: url("pics/b4.jpg");
+}
+#textban .t3{
+   background-image: url("pics/b18.jpg");
+}
+#textban .txtbnr span{
+   color: brown;
+   font-weight: 700;
+}
+#textban .txtbnr h2{
+   color: #fff;
+   font-size: 22px;
+   font-weight: 900;
+}
+#newsltr{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-right:20px;
+   background-color: #222;
+   background-repeat: no-repeat;
+   background-position: 20% 30%;
+   background-image: url("pics/b19.jpg");
+   background-size: cover;
+}
+#newsltr .input{
+   padding-top: 30px;
+   padding-left: 0%;
+}
+#newsltr h2{
+   font-size: 22px;
+   font-weight: 700;
+   color: #fff;
+}
+#newsltr h4{
+   font-size: 17px;
+   font-weight: 700;
+}
+#newsltr h4 span{
+   color: lavender;
+}
+#newsltr input{
+   font-size: 20px;
+   margin-right: 0%;
+}
+#newsltr button{
+   font-size: 20px;
+   color: #cce7d0;
+   background-color: #465b52;
+   cursor: pointer;
+   margin-left: 0%;
 }
